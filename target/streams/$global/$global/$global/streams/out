@@ -1,3 +1,4 @@
+[debug] no default cache defined: set to /root/.ivy2/cache
 [debug] :: resolving dependencies :: org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.16.0-RC1
 [debug] 	confs: [compile, runtime, test, provided, optional]
 [debug] 	validate = true
@@ -221,21 +222,21 @@
 [debug] == resolving dependencies for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.16.0-RC1 [optional]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.2.5!compiler-interface.jar
+[debug] 	[NOT REQUIRED] ch.epfl.lamp#dotty-library_0.16;0.16.0-RC1!dotty-library_0.16.jar
 [debug] 	[NOT REQUIRED] ch.epfl.lamp#dotty-compiler_0.16;0.16.0-RC1!dotty-compiler_0.16.jar
 [debug] 	[NOT REQUIRED] ch.epfl.lamp#dotty-interfaces;0.16.0-RC1!dotty-interfaces.jar
-[debug] 	[NOT REQUIRED] ch.epfl.lamp#dotty-library_0.16;0.16.0-RC1!dotty-library_0.16.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-interface;1.2.2!util-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-asm;6.0.0-scala-1!scala-asm.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.2.5!compiler-interface.jar
 [debug] 	[NOT REQUIRED] org.jline#jline-reader;3.9.0!jline-reader.jar
 [debug] 	[NOT REQUIRED] org.jline#jline-terminal;3.9.0!jline-terminal.jar
 [debug] 	[NOT REQUIRED] org.jline#jline-terminal-jna;3.9.0!jline-terminal-jna.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-interface;1.2.2!util-interface.jar
 [debug] 	[NOT REQUIRED] net.java.dev.jna#jna;4.2.2!jna.jar
-[debug] :: resolution report :: resolve 806ms :: artifacts dl 31ms
+[debug] :: resolution report :: resolve 4573ms :: artifacts dl 125ms
 [debug] 	report for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.16.0-RC1 compile produced in /home/naseem/Documents/SFreely NEW/Dotty-With-Js/target/scala-0.16/resolution-cache/reports/org.scala-sbt.temp-temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec-compile.xml
 [debug] 	report for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.16.0-RC1 runtime produced in /home/naseem/Documents/SFreely NEW/Dotty-With-Js/target/scala-0.16/resolution-cache/reports/org.scala-sbt.temp-temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec-runtime.xml
 [debug] 	report for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.16.0-RC1 test produced in /home/naseem/Documents/SFreely NEW/Dotty-With-Js/target/scala-0.16/resolution-cache/reports/org.scala-sbt.temp-temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec-test.xml
 [debug] 	report for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.16.0-RC1 provided produced in /home/naseem/Documents/SFreely NEW/Dotty-With-Js/target/scala-0.16/resolution-cache/reports/org.scala-sbt.temp-temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec-provided.xml
 [debug] 	report for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.16.0-RC1 optional produced in /home/naseem/Documents/SFreely NEW/Dotty-With-Js/target/scala-0.16/resolution-cache/reports/org.scala-sbt.temp-temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec-optional.xml
-[debug] 	resolve done (806ms resolve - 31ms download)
+[debug] 	resolve done (4573ms resolve - 125ms download)

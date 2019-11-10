@@ -4,7 +4,7 @@
 		module="dotty-with-js-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190724102420"
+		publication="20190724144234"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

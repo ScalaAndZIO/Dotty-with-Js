@@ -7,7 +7,7 @@
 		revision="0.16.0-RC1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional"
-		date="20190724103104"/>
+		date="20190724144306"/>
 	<dependencies>
 		<module organisation="ch.epfl.lamp" name="dotty-compiler_0.16">
 			<revision name="0.16.0-RC1" status="release" pubdate="20190608194150" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lampepfl/dotty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
